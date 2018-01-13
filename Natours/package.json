@@ -1,0 +1,22 @@
+{
+    "name": "advanced-css",
+    "version": "1.0.0",
+    "description": "Natours Website Tutorial",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattierocks/advanced-css.git"
+    },
+    "author": "Mattie Fuller <mattie@mattiefuller.io> (http://mattiefuller.io)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mattierocks/advanced-css/issues"
+    },
+    "homepage": "https://github.com/mattierocks/advanced-css#readme",
+    "devDependencies": {
+        "node-sass": "^4.7.2"
+    }
+}
